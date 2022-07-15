@@ -14,3 +14,19 @@ p{
 .card{
     padding: 0%;
 }
+ul{
+    justify-content: space-between;
+}
+.image-properties{
+    padding-top: px;
+    padding-bottom: 60px;
+}
+.card-text{
+    font-size: xx-small;
+}
+.second-card{
+    border-color: white;
+}
+#get-started-button{
+    background-color:rgb(109, 219, 45)
+}

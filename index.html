@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container-fluid min-vh-100">
-        <div class="col border border-secondary mx-5">
+        <div class="col">
 
             <!-- nav bar goes here -->
             <div class="row border border-primary">
@@ -50,10 +50,10 @@
             <!-- Start Paragraphs & Cards Here-->
 
                     <!--1st paragraph ( how it works )-->
-
+            <hr>
             <div class="row">
                 <div class="col text-center">
-                    <h4 class="py-4 fs-5 m">How It Works</h4>
+                    <h4 class="p-4 fs-5 m">How It Works</h4>
                     <p class="mx-auto fs-7 pb-4" style="width: 400px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut harum beatae ipsa odit enim, quidem non
                         aliquid laboriosam expedita quos tenetur, laudantium dolorem fugiat? Perferendis accusantium inventore nostrum
                         architecto?</p>
@@ -62,15 +62,17 @@
             
                     <!-- Collect Useful Info Card -->
             <div class="row">
-                <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                <div class="card mb-3 mx-auto" style="width: 30rem;" >
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="CRM-Main/Collect-info@2x.png" class="img-fluid rounded-start " alt="illustration">
+                            <div class="image-properties">
+                            <img src="CRM-Main/Collect-info@2x.png" class="img-fluid rounded-start py-5 px-3" alt="illustration">
+                            </div>
                         </div>
-                        <div class="col-md-8  text-bg-primary rounded-end">
-                            <div class="card-body ">
-                                <h5 class="card-title fs-6 pb-4">Collect Useful Info</h5>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias magni mollitia
+                        <div class="col-md-8 text-bg-primary rounded-end">
+                            <div class="card-body">
+                                <h5 class="card-title fs-6 pb-4 p-4">Collect Useful Info</h5>
+                                <p class="card-text px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias magni mollitia
                                     optio nobis incidunt delectus.</p>
                             </div>
                         </div>
@@ -90,15 +92,17 @@
                     <!-- Get Paid Sooner Card -->
 
             <div class="row">
-                <div class="card mb-3 mx-auto" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="CRM-Main/Get Paid Sooner.png" class="img-fluid rounded-start" alt="illustration">
-                        </div>
-                        <div class="col-md-8 text-bg-primary rounded-end">
-                            <div class="card-body">
-                                <h5 class="card-title">Get Paid Sooner</h5>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias magni mollitia optio nobis incidunt delectus, ipsum iste iusto eius facilis dolor quo illo voluptatem modi totam quia quod expedita nostrum.</p>
+                <div class="card mb-5 mx-auto border-white" style="width: 30rem;">
+                    <div class="second-card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="CRM-Main/Get Paid Sooner.png" class="img-fluid rounded-start rounded-3 py-4"  alt="illustration">
+                            </div>
+                            <div class="col-md-8 text-bg-primary rounded-end">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fs-6 p-4">Get Paid Sooner</h5>
+                                    <p class="card-text px-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias magni mollitia optio nobis incidunt delectus, ipsum iste iusto eius facilis dolor quo illo voluptatem modi totam quia quod expedita nostrum.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -108,19 +112,24 @@
             <!-- Footer Goes Below -->
 
             <footer class="row border border-primary">
-                <h1 class="try-dbltap d-flex justify-content-center">Try Double Tap Today!</h1>
-                <p class="getting started d-flex justify-content-center"">Let's Get Started</p>
+                <h6 class="try-dbltap text-center mt-3">Try Double Tap Today!</h6>
+                <p class="getting started text-center">Let's Get Started</p>
+
                 <!-- buttons here -->
-                    <div class="links d-flex justify-content-center">
+                <div class="buttons-section text-center">
+                    <button class="btn btn-primary" id="get-started-button" type="submit">Get Started</button>
+                    <button class="btn btn-primary" id="chat-button" type="submit">Button</button>
+                </div>
+                    <div class="Links d-flex justify-content-center">
                         <div>
                         <a href="#">Free 14 Day Trial</a>
                         </div>
-                        <div>
+                        <li>
                         <a href="#">Manage Customs in Minutes</a>
-                        </div>
-                        <div>
+                        </li>
+                        <li>
                         <a href="#">Cancel at Anytime</a>
-                        </div>
+                        </li>
                     </div>
             </footer>
         </div>    
