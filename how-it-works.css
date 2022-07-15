@@ -1,0 +1,16 @@
+footer{
+    background-color:#1755ed; 
+    color: white;
+}
+a {
+    color: white;
+}
+.card-body{
+    /* background-color: #1755ed; */
+} 
+p{
+    font-size: x-small;
+}
+.card{
+    padding: 0%;
+}
