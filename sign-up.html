@@ -7,9 +7,44 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <title>Sign Up</title>
 </head>
-<body>
+<body class="container-fluid border border-warning text-center d-flex align-items-center">
     
-<script>https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
+    <!-- left column - content -->
+    <div class="signup-part col-4 border border-primary d-flex flex-column align-self-stretch justify-content-evenly mt-5">
+        
+        <!-- sign up form -->
+            <div class="signup-title-part">
+                <h1 class="border border-primary mt-5">Sign Up</h1>
+            </div>
+                <form class="d-flex flex-column flex-grow-1 justify-content-evenly align-items-center">
+                    <div class="form-group">
+                      <input type="text" style="border-radius: 20px" class="form-control" id="full-name" aria-describedby="emailHelp" placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" style="border-radius: 20px" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" style="border-radius: 20px" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button style="border-radius: 20px; padding: 6px 30px;" type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+                <p class="border border-primary mb-5">or Sign up with social platforms</p>
+
+        <!-- social -->
+        <div class="social-part border border-primary d-flex justify-content-evenly mb-5">
+            <img src="/images/Path 151.png" alt="">
+            <img src="/images/Path 152.png" alt="">
+            <img src="/images/Path 151.png" alt="">
+            <img src="/images/Path 152.png" alt="">
+        </div>
+    </div>
+
+    <!-- right column - image background -->
+    <div class="image-part mt-5 me-5">
+        <img class="border border-primary img-fluid" src="/images/Group 10.png" alt="">
+    </div>
+    <!-- </div> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
 </script>
 </body>
 </html>
