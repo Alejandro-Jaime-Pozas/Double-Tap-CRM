@@ -16,13 +16,13 @@
             <!-- nav bar goes here -->
             <nav class="navbar navbar-expand-lg bg-light ">
                 <div class="container-fluid">
-                    <a class="navbar-brand ms-5" href="#"><img src="../images/Logo.png" alt="double tap logo" width="150"></a>
+                    <a class="navbar-brand ms-5" href="#"><img src="CRM-Main/Logo-1.png" alt="double tap logo" width="150"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5" style="font-size: .5rem;">
                             <li class="nav-item mx-4 fw-semibold">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
@@ -40,19 +40,47 @@
                             </li>
                         </ul>
                         <form class="col-3 d-flex justify-content-evenly" role="search">
-                            <button class="btn btn-outline-primary fw-semibold" type="button">Sign In</button>
-                            <button class="btn btn-outline-primary fw-semibold " type="button">Try It Free</button>
+                            <button class="btn btn-outline-primary fw-semibold btn-sm" type="button">Sign In</button>
+                            <button class="btn btn-primary fw-semibold btn-sm" type="button">Try It Free</button>
                         </form>
                     </div>
                 </div>
             </nav>
 
             <!-- Focus On Your Business Section Here-->
+            <div class="row">
+                <div class="col-7 mt-5 ms-4 px-5">
+                    <h1><b>Focus on<br> Your Business</b></h1>
+                    <h3>Let Us Handle Everything Else</h3>
+                    <p class="text-secondary text-opacity-75 fw-semibold">Subscription Billing, powered with revenue retention tools
+                        and a<br> seamless customer experience - without the technical hurdles.<b></b></p>
+                    <button type="button" class="btn btn-primary btn-lg me-2 mb-3 fw-semibold">
+                        <span class= "me-2" style="font-size: 1rem;">Sign Up Free</span> 
+                        <span><i class="bi bi-chevron-double-right" style="font-size: .5rem;"></i></span>
+                    <button type="button" class="btn btn-outline-primary btn-lg mb-3 fw-semibold">
+                        <span><i class="bi bi-chat-dots-fill"></i></span>
+                        <span class="ps-2" style="font-size: 1rem;"><b>Chat With Us</b></span>
+                    </button>
 
+                    <p class="text-secondary fw-semibold">Already using <b>Double</b>Tap? <b><a
+                                class="text-secondary text-decoration-none" href="#">Sign In</b></a></p>
+                    <ul class="d-flex justify-content-start blue-list fw-semibold lh-sm ps-0">
+                        <p>Free 14 day Trial</p>
+                        <li class="mx-4" style="font-size: .78rem;">Manage Customers in Minutes</li>
+                        <li class="ms-2" style="font-size: .78rem;">Cancel at Anytime</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="CRM-Main/Header-Side-1.png"  class="img-fluid" alt="header-icons">
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <hr>
+                    </div>
+                </div>
             <!-- Start Paragraphs & Cards Here-->
 
                     <!--1st paragraph ( how it works )-->
-            <hr>
             <div class="row">
                 <div class="col text-center">
                     <h4 class="p-4 fs-5 m">How It Works</h4>
@@ -64,18 +92,19 @@
             
                     <!-- Collect Useful Info Card -->
             <div class="row">
-                <div class="card mb-3 mx-auto" style="width: 30rem;" >
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <div class="image-properties">
-                            <img src="CRM-Main/Collect-info@2x.png" class="img-fluid rounded-start py-5 px-3" alt="illustration">
+                <div class="container-fluid">
+                    <div class="card mb-3 mx-auto" style="width: 30rem;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div>
+                                <img src="CRM-Main/Collect-info@2x.png" class="img-fluid rounded-start py-5 px-3" alt="illustration">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-8 text-bg-primary rounded-end">
-                            <div class="card-body">
-                                <h5 class="card-title fs-6 pb-4 p-4">Collect Useful Info</h5>
-                                <p class="card-text px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias magni mollitia
-                                    optio nobis incidunt delectus.</p>
+                            <div class="col-md-8 text-bg-primary rounded-end">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-6 pb-4 p-4">Collect Useful Info</h5>
+                                    <p class="card-text px-3">Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your paroducts and services.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -113,7 +142,7 @@
 
             <!-- Footer Goes Below -->
 
-            <footer class="row border border-primary">
+            <footer class="row bg-primary text-white mt-4">
                 <h5 class="try-dbltap text-center mt-3">Try Double Tap Today!</h5>
                 <p class="getting started text-center">Let's Get Started</p>
 
@@ -124,17 +153,17 @@
                         <span><i class="bi bi-chevron-double-right" style="font-size: .5rem;"></i></span>
                     </button>
                     <button class="btn btn-light text-primary px-3 btn-sm" id="chat-button" type="submit">
-                        <span><i class="bi bi-chat-dots-fill"></i></span>
+                        <span><i class="bi bi-chat-dots-fill" ></i></span>
                         <span class= "ps-2" style="font-size: .65rem;"><b>Chat With Us</b></span>
                     </button>
                 </div>
                     <div class="links d-flex justify-content-center pt-2 pb-5">
                         <div class="d-flex align-items-center">
-                            <span><a href="#" class="text-decoration-none ps-5">Free 14 Day Trial</a></span>
+                            <span><a href="#" class="text-decoration-none ps-5 text-white">Free 14 Day Trial</a></span>
                             <span><i class="bi bi-dot" style="font-size: 1.5rem;"></i></span>
-                            <span><a href="#" class="text-decoration-none">Manage Customs in Minutes</a></span>
+                            <span><a href="#" class="text-decoration-none text-white">Manage Customs in Minutes</a></span>
                             <span><i class="bi bi-dot" style="font-size: 1.5rem;"></i></span>
-                            <span><a href="#" class="text-decoration-none pe-5">Cancel at Anytime</a></span>
+                            <span><a href="#" class="text-decoration-none text-white pe-5">Cancel at Anytime</a></span>
                         </div>
                     </div>
             </footer>

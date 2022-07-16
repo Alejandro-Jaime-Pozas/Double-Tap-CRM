@@ -1,25 +1,9 @@
-footer{
-    background-color:#1755ed; 
-    color: white;
-}
-a {
-    color: white;
-}
-.card-body{
-    /* background-color: #1755ed; */
-} 
+
 p{
     font-size: x-small;
 }
 .card{
     padding: 0%;
-}
-ul{
-    justify-content: space-between;
-}
-.image-properties{
-    padding-top: px;
-    padding-bottom: 60px;
 }
 .card-text{
     font-size: xx-small;
@@ -28,19 +12,19 @@ ul{
     border-color: white;
 }
 #get-started-button{
-    background-color:rgb(109, 219, 45)
-}
-#arrows{
-    font-size: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-}
-#chat-button{
-
+    background-color:rgb(123, 204, 76)
 }
 .links{
     font-size: 10px;
-    font-weight: lighter;
+    font-weight:lighter
 }
+.blue-list {
+    list-style: none;
+  }
+.blue-list li::before {
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;}
