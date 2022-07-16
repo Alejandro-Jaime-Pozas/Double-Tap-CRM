@@ -30,3 +30,17 @@ ul{
 #get-started-button{
     background-color:rgb(109, 219, 45)
 }
+#arrows{
+    font-size: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#chat-button{
+
+}
+.links{
+    font-size: 10px;
+    font-weight: lighter;
+}

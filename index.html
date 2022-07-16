@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="how-it-works.css">
     <title>How It Works</title>
 </head>
@@ -13,37 +14,38 @@
         <div class="col">
 
             <!-- nav bar goes here -->
-            <div class="row border border-primary">
-                <nav class="navbar navbar-expand-lg bg-light ">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="../images/Logo.png" alt="double tap logo" width="150"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Disabled</a>
-                                </li>
-                            </ul>
-                            <form role="search">
-                                <button class="btn btn-outline-primary" type="button">Search</button>
-                                <button class="btn btn-outline-primary " type="button">Search</button>
-                            </form>
-                        </div>
+            <nav class="navbar navbar-expand-lg bg-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-5" href="#"><img src="../images/Logo.png" alt="double tap logo" width="150"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                            <li class="nav-item mx-4 fw-semibold">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mx-4">
+                                <a class="nav-link fw-semibold" href="#">Features</a>
+                            </li>
+                            <li class="nav-item mx-4 fw-semibold">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item mx-4 fw-semibold">
+                                <a class="nav-link fw-semibold" href="#">How it Works</a>
+                            </li>
+                            <li class="nav-item mx-4">
+                                <a class="nav-link fw-semibold" href="#">Support</a>
+                            </li>
+                        </ul>
+                        <form class="col-3 d-flex justify-content-evenly" role="search">
+                            <button class="btn btn-outline-primary fw-semibold" type="button">Sign In</button>
+                            <button class="btn btn-outline-primary fw-semibold " type="button">Try It Free</button>
+                        </form>
                     </div>
-                </nav>
-            </div>    
+                </div>
+            </nav>
 
             <!-- Focus On Your Business Section Here-->
 
@@ -54,9 +56,9 @@
             <div class="row">
                 <div class="col text-center">
                     <h4 class="p-4 fs-5 m">How It Works</h4>
-                    <p class="mx-auto fs-7 pb-4" style="width: 400px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut harum beatae ipsa odit enim, quidem non
+                    <p class="mx-auto fs-7 pb-4" style="width: 400px;"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut harum beatae ipsa odit enim, quidem non
                         aliquid laboriosam expedita quos tenetur, laudantium dolorem fugiat? Perferendis accusantium inventore nostrum
-                        architecto?</p>
+                        architecto?</b></p>
                 </div>
             </div>
             
@@ -83,10 +85,10 @@
 
             <div class="row">      
                 <div class="col text-center m-5">
-                    <p class="mx-auto" style="width: 400px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut harum
+                    <p class="mx-auto" style="width: 400px;"><b>ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut harum
                         beatae ipsa odit enim, quidem non
                         aliquid laboriosam expedita quos tenetur, laudantium dolorem fugiat? Perferendis accusantium inventore nostrum
-                        architecto?</p>
+                        architecto?</b></p>
                 </div>
             </div>
                     <!-- Get Paid Sooner Card -->
@@ -112,24 +114,28 @@
             <!-- Footer Goes Below -->
 
             <footer class="row border border-primary">
-                <h6 class="try-dbltap text-center mt-3">Try Double Tap Today!</h6>
+                <h5 class="try-dbltap text-center mt-3">Try Double Tap Today!</h5>
                 <p class="getting started text-center">Let's Get Started</p>
 
                 <!-- buttons here -->
                 <div class="buttons-section text-center">
-                    <button class="btn btn-primary" id="get-started-button" type="submit">Get Started</button>
-                    <button class="btn btn-primary" id="chat-button" type="submit">Button</button>
+                    <button class="btn btn-primary px-3 me-4 btn-sm" id="get-started-button" type="submit">
+                        <span class= "me-2" style="font-size: .65rem;">Get Started</span> 
+                        <span><i class="bi bi-chevron-double-right" style="font-size: .5rem;"></i></span>
+                    </button>
+                    <button class="btn btn-light text-primary px-3 btn-sm" id="chat-button" type="submit">
+                        <span><i class="bi bi-chat-dots-fill"></i></span>
+                        <span class= "ps-2" style="font-size: .65rem;"><b>Chat With Us</b></span>
+                    </button>
                 </div>
-                    <div class="Links d-flex justify-content-center">
-                        <div>
-                        <a href="#">Free 14 Day Trial</a>
+                    <div class="links d-flex justify-content-center pt-2 pb-5">
+                        <div class="d-flex align-items-center">
+                            <span><a href="#" class="text-decoration-none ps-5">Free 14 Day Trial</a></span>
+                            <span><i class="bi bi-dot" style="font-size: 1.5rem;"></i></span>
+                            <span><a href="#" class="text-decoration-none">Manage Customs in Minutes</a></span>
+                            <span><i class="bi bi-dot" style="font-size: 1.5rem;"></i></span>
+                            <span><a href="#" class="text-decoration-none pe-5">Cancel at Anytime</a></span>
                         </div>
-                        <li>
-                        <a href="#">Manage Customs in Minutes</a>
-                        </li>
-                        <li>
-                        <a href="#">Cancel at Anytime</a>
-                        </li>
                     </div>
             </footer>
         </div>    
