@@ -1,0 +1,30 @@
+
+p{
+    font-size: x-small;
+}
+.card{
+    padding: 0%;
+}
+.card-text{
+    font-size: xx-small;
+}
+.second-card{
+    border-color: white;
+}
+#get-started-button{
+    background-color:rgb(123, 204, 76)
+}
+.links{
+    font-size: 10px;
+    font-weight:lighter
+}
+.blue-list {
+    list-style: none;
+  }
+.blue-list li::before {
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;}
