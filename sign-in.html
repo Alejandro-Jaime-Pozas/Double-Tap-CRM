@@ -8,8 +8,84 @@
     <title>Sign In</title>
 </head>
 <body>
+    <!-- Container -->
+    <div class="container-fluid">
+
+    <!-- Main Row -->
+        <div class="row" style="height: 100vh;">
+       <!-- Column First Half -->  
+            <div class="col-7" style="background-image: url(/images/background.png); background-repeat: no-repeat;">
+
+                <div class="account text-white text-center col-7 mt-5">
+                    <h4>Don't Have an Account Yet?</h4>
+                    <h4>What are you waiting for? Let's Fix that now</h4>
+               
+                <!-- Sign up button -->
+                  <a href="/sign-up.html">
+                    <button style="border-radius: 50px;" type="button" class="btn btn-outline-light col-4 mt-3"><strong>Sign Up</strong></button>
+                  </a>
+                </div>
+                <!-- Image -->
+                <div class="image mt-5 ms-5 ps-5 pt-4">
+                    <img src="/images/Group 15.png" class="" alt="Space Rocket Image">
+                </div>
+
+            </div>
+            
+        <!-- Column Second Half -->
+            <div class="col-5 d-flex flex-column justify-content-center align-items-center">
+                
+                <!-- Form -->
+                <form>
+                    <h1 class="text-black mb-5 ms-5"><strong>Sign In</strong></h1>
+                    <!-- couldn't figure out how to put icons in input boxes -->
+                    <!-- Username input -->
+                    <div class="form-outline mb-5">
+                        <input type="username" class="form-control" style="border-radius: 25px;"/>
+                    </div>
+                    <!-- Email input -->
+                    <div class="form-outline mb-5">
+                      <input type="email" class="form-control" style="border-radius: 25px;"/>
+                    </div>
+                  
+                    <!-- Password input -->
+                    <div class="form-outline mb-5">
+                      <input type="password" class="form-control" style="border-radius: 25px;"/>
+                    </div>
+                  
+                    <!-- Sign In button -->
+                    <button type="button" class="col-7 btn btn-primary mb-4 mt-2" style="margin-left: 70px; border-radius: 25px;--bs-btn-padding-y: .50rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 1.1rem;"><strong>Sign In</strong></button>
+                  
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                    <h6 class="mb-4">Or Sign in with social platforms</h6>
+                      <button type="button" style="border-radius: 50%;" class="btn btn-outline-dark btn-floating px-3 py-2 me-4">
+                        <img src="/images/Path 151.png" alt="Facebook Logo">
+                      </button>
+                  
+                      <button type="button" style="border-radius: 50%;" class="btn btn-outline-dark btn-floating py-3 me-4">
+                        <img src="/images/Path 152.png" alt="Twitter Logo">
+                      </button>
+                  
+                      <button type="button" style="border-radius: 50%;" class="btn btn-outline-dark btn-floating px-3 text-black me-4" alt="Google Logo">
+                        <h1><strong>G</strong></h1>
+                    </button>
+                    
+                    <button type="button" style="border-radius: 50%;" class="btn btn-outline-dark btn-floating px-3 text-black" alt="LinkedIn Logo">
+                        <h1><strong>in</strong></h1>
+                      </button>
+
+                    </div>
+
+                  </form>
+             
+            </div>
+        
+        </div>
     
-<script>https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
 </script>
 </body>
 </html>
